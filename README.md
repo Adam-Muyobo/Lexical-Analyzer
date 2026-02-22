@@ -1,6 +1,6 @@
-# CSI428 Lexical Analyzer (Question 1)
+# Lexical Analyzer
 
-Table-driven lexical analyzer for **Python** built for **CSI428 – Programming Language Translation** (Assignment I, Q1).  
+Table-driven lexical analyzer for **Python** built for **CSI428 – Programming Language Translation** (Assignment I, Q1, 2025/2026 Semester 2).  
 The lexer reads input **character-by-character** and uses a **DFA transition table (FA table)** for core token families.
 
 ## Files
@@ -10,6 +10,7 @@ The lexer reads input **character-by-character** and uses a **DFA transition tab
 - `keywords.py` – Python keyword set
 - `sample_inputs/` – sample programs for testing
 - `tests/run_tests.py` – run lexer across all sample inputs
+#### When in doubt just read five.md
 
 ## Token Types Supported
 - `KEYWORD`, `IDENTIFIER`
@@ -44,12 +45,7 @@ Each token prints as:
 line:col    TOKEN_TYPE    'lexeme'
 ```
 
-## Notes for Report
-Explain:
-1) token list + descriptions  
-2) FA: character classes, states, transitions  
-3) implementation: char-by-char scanning + maximal munch  
-4) testing: sample inputs and outputs
-
 ## Authors
-Tida, Zibisani, Adam
+- Adam Musakabantu Muyobo
+- Zibisani Kgari Mholo
+- Theo Kizito Tida
